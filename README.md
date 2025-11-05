@@ -43,6 +43,15 @@ Create a .env file in the project root and add the following:
 •	Integrate chat history persistence
 •	Add model selection (Gemini 1.5 Pro, Claude, etc.)
 •	UI/UX improvements and dark mode
+
+
 ❤️ Credits
 Built with 💻, ⚡, and ☕ by Dishank Aswal. Powered by Supabase & Google Gemini AI.
+
+
+🧑‍💻 Author Dishank Aswal 📧 dishankaswal2002@gmail.com | dishankaswalau@gmail.com 
+
+🌐 GitHub: https://github.com/Dishankaswal 
+
+🔗 LinkedIn: https://www.linkedin.com/in/dishankaswal/
 # DocChat
