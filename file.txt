@@ -1,0 +1,3182 @@
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
+# Supabase Connection Setup
+
+This project is configured to connect to your Supabase project: `https://fxxjsmoseozvfnlfhvhx.supabase.co`
+
+## Setup Instructions
+
+1. **Get your API keys from Supabase Dashboard:**
+   - Go to https://supabase.com/dashboard
+   - Select your project (fxxjsmoseozvfnlfhvhx)
+   - Go to Settings > API
+   - Copy your `anon` (public) key and `service_role` key
+
+2. **Configure the connection:**
+   - Open `supabase-config.js`
+   - Replace `'your_anon_key_here'` with your actual anon key
+   - Replace `'your_service_role_key_here'` with your service role key
+
+3. **Test the connection:**
+   ```bash
+   node example.js
+   ```
+
+## Usage
+
+```javascript
+const { supabase, supabaseAdmin } = require('./supabase');
+
+// Use the client for regular operations
+const { data, error } = await supabase
+  .from('your_table')
+  .select('*');
+
+// Use supabaseAdmin for server-side operations (RLS bypass)
+const { data, error } = await supabaseAdmin
+  .from('your_table')
+  .insert({ column: 'value' });
+```
+
+## Security Note
+
+- Keep your `service_role` key secret and never expose it in client-side code
+- The `anon` key is safe to use in client applications
+- Consider using environment variables for production deployments
